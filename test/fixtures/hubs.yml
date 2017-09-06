@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hubname: MyString
+  website: MyString
+  state: MyString
+  address: MyText
+
+two:
+  hubname: MyString
+  website: MyString
+  state: MyString
+  address: MyText
