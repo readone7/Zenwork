@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170906085735) do
+ActiveRecord::Schema.define(version: 20170906114302) do
 
   create_table "hubs", force: :cascade do |t|
     t.string "hubname"
@@ -19,6 +19,21 @@ ActiveRecord::Schema.define(version: 20170906085735) do
     t.text "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "spaces", force: :cascade do |t|
+    t.string "spacename"
+    t.text "description"
+    t.time "opentime"
+    t.time "closetime"
+    t.boolean "restricted"
+    t.integer "capacity"
+    t.integer "price"
+    t.boolean "availabile"
+    t.integer "hub_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["hub_id"], name: "index_spaces_on_hub_id"
   end
 
 end

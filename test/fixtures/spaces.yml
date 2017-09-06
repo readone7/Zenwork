@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  spacename: MyString
+  description: MyText
+  opentime: 2017-09-06 12:43:03
+  closetime: 2017-09-06 12:43:03
+  restricted: false
+  capacity: 1
+  price: 1
+  availabile: false
+  hub: one
+
+two:
+  spacename: MyString
+  description: MyText
+  opentime: 2017-09-06 12:43:03
+  closetime: 2017-09-06 12:43:03
+  restricted: false
+  capacity: 1
+  price: 1
+  availabile: false
+  hub: two
