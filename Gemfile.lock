@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/codahale/bcrypt-ruby.git
+  revision: 23b0517e20e7ddf2e733c1bcdb22b0b12166f042
+  specs:
+    bcrypt (3.1.11)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,8 +45,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
-    bcrypt (3.1.11)
-    bcrypt (3.1.11-x86-mingw32)
     builder (3.2.3)
     byebug (9.1.0)
     concurrent-ruby (1.0.5)
@@ -115,7 +119,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bcrypt (~> 3.1.11)
+  bcrypt!
   byebug
   knock
   rails (~> 5.1.1)
